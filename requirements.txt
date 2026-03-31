@@ -1,5 +1,5 @@
 flask==2.3.3
 line-bot-sdk==3.5.0
-python-dotenv==1.0.0
+sqlalchemy==2.0.25
 gunicorn==21.2.0
 cryptography==41.0.7
