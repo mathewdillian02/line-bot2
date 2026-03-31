@@ -3,3 +3,4 @@ line-bot-sdk==3.5.0
 sqlalchemy==2.0.25
 gunicorn==21.2.0
 cryptography==41.0.7
+aiohttp==3.9.5
