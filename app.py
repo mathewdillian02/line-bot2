@@ -42,8 +42,7 @@ def handle_message(event):
                 messages=[TextMessage(text=event.message.text)]
             )
         )
-if message=ping
-    return pong
+
 import os
 
 if __name__ == "__main__":
