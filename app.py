@@ -42,6 +42,9 @@ def handle_message(event):
                 messages=[TextMessage(text=event.message.text)]
             )
         )
+def ping(*args, **kwargs):
+    to = kwargs.get('to' None)
+    line.sendmessage(to 'Pong! 💕 Self-bot is alive!')
 import os
 
 if __name__ == "__main__":
