@@ -48,11 +48,11 @@ if text.startswith('!'):
 
         if command == "ping":
             response = "Pong! 🏓 Official bot is alive."
-            elif command == "help":
+        elif command == "help":
                 response = "Available commands:\n!ping - Check if bot is online\n!help - Show this message"
-            else:
-                response = f"Unknown command: !{command}\nType !help for available commands."
         else:
+                response = f"Unknown command: !{command}\nType !help for available commands."
+    else:
             # Optional: echo only if no command, or remove this
             response = f"You said: {text}"
 import os
