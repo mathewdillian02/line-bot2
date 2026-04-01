@@ -42,7 +42,8 @@ def handle_message(event):
                 messages=[TextMessage(text=event.message.text)]
             )
         )
-
+def ping():
+    return "pong"
 import os
 
 if __name__ == "__main__":
