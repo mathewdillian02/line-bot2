@@ -42,12 +42,12 @@ def handle_message(event):
                 messages=[TextMessage(text=event.message.text)]
             )
         )
-         if text.startswith('!'):
-            command = text[1:].lower().split()[0]
-            args = text[1:].split()[1:]
+if text.startswith('!'):
+        command = text[1:].lower().split()[0]
+        args = text[1:].split()[1:]
 
-            if command == "ping":
-                response = "Pong! 🏓 Official bot is alive."
+        if command == "ping":
+            response = "Pong! 🏓 Official bot is alive."
             elif command == "help":
                 response = "Available commands:\n!ping - Check if bot is online\n!help - Show this message"
             else:
